@@ -4,7 +4,7 @@ Accepting OneMoney payments through [paynow](https://paynow.co.zw) should not be
 
 ## Official Documentation
 
-This service only has one endpoint `POST /v1/payments`. Here's the base URL `https://paynow-onemoney-payments.herokuapp.com`, you can also use it to discover the API on your own.
+This service only has one endpoint `POST /v1/payments`. Here's the base URL [`https://paynow-onemoney-payments.herokuapp.com`](https://paynow-onemoney-payments.herokuapp.com), you can also use it to discover the API on your own.
 
 - `paynow_integration_id` : The ID of your integration as provided by Paynow. This field is required
 - `paynow_integration_key` : Your Paynow integration key as provided by paynow. This field is required
