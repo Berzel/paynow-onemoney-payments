@@ -14,6 +14,6 @@ This service only has one endpoint `POST /v1/payments`. Here's the base URL `htt
 
 Here's a screenshot for reference
 
-![example postman screenshot](https://raw.githubusercontent.com/Berzel/paynow-ecocash-payments-service/master/docs/paynow-ecocash-payments.png)
+![example postman screenshot](https://raw.githubusercontent.com/Berzel/paynow-onemoney-payments/master/docs/paynow.png)
 
 That's all.
