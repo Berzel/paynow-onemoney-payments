@@ -1,4 +1,4 @@
-# Paynow Ecocash Payments Service
+# Paynow OneMoney Payments Service
 
 Accepting OneMoney payments through [paynow](https://paynow.co.zw) should not be a pain for the developer, that is why I created this API. This API attempts to ease out the integration with [paynow](https://paynow.co.zw) so that the developer can focus on the most important parts of the project. The API is very similar to the [EcoCash API](https://github.com/Berzel/paynow-ecocash-payments) but I have created them as seperate projects so that you can scale them independently depending on your requirements. If you wish however you can modify each service to accept both payment methods. Before using this service you must be registered with [paynow](https://paynow.co.zw) and have your ID and Key at the ready. Enjoy.
 
@@ -14,6 +14,6 @@ This service only has one endpoint `POST /v1/payments`. Here's the base URL `htt
 
 Here's a screenshot for reference
 
-![example postman screenshot](https://raw.githubusercontent.com/Berzel/paynow-onemoney-payments/master/docs/paynow.png)
+![example postman screenshot](https://raw.githubusercontent.com/Berzel/paynow-onemoney-payments/master/docs/onemoney.png)
 
 That's all.
