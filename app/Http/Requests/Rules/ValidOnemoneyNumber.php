@@ -2,8 +2,8 @@
 
 namespace App\Http\Requests\Rules;
 
-use App\OneMoneyNumber;
 use InvalidArgumentException;
+use App\ValueObjects\OneMoneyNumber;
 use Illuminate\Contracts\Validation\Rule;
 
 class ValidOnemoneyNumber implements Rule {
@@ -17,10 +17,9 @@ class ValidOnemoneyNumber implements Rule {
      */
     public function passes($attribute, $number) {
         try {
-            $number = new OneMoneyNumber($number);
-            return true;
-        } 
-        
+            return !! new OneMoneyNumber($number);;
+        }
+
         catch (InvalidArgumentException $exception) {
             return false;
         }
@@ -32,6 +31,6 @@ class ValidOnemoneyNumber implements Rule {
      * @return string|array
      */
     public function message(){
-        return 'The :attribute must be a valid netone number in the format 071XXXXXXX, and should be 10 digits long.';
+        return 'The :attribute must be in the format 071XXXXXXX, and should be 10 digits long.';
     }
 }

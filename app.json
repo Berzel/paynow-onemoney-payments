@@ -1,0 +1,16 @@
+{
+    "name": "Paynow OneMoney Payments REST API",
+    "description": "A REST API that allows developers to easily integrate with Paynow for accepting OneMoney Payments",
+    "repository": "https://github.com/Berzel/paynow-onemoney-payments",
+    "keywords": ["paynow", "onemoney", "rest api"],
+    "website": "https://paynow-onemoney-payments.herokuapp.com/",
+    "success_url": "/",
+    "env": {
+        "PAYNOW_ID": {
+          "description": "The ID of your paynow integration as provided by paynow"
+        },
+        "PAYNOW_KEY": {
+          "description": "The Paynow integration key as provided by paynow"
+        }
+      }
+  }
